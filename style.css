@@ -1,0 +1,118 @@
+*/{
+    margin :0;
+    padding: 0%;
+}
+body {
+    margin: 0;
+    color: white;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/image/background.jpg);
+    background-position: center center;
+    background-size: cover;
+
+}
+
+#header {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+h2 {
+    color: rgb(80, 141, 80);
+    font-size: 20px;
+    display: flex;
+    align-items: left;
+}
+.word {
+    color: black;
+    display: flex;
+    font-size: 10px;
+    flex-direction: row;
+    align-items: right;
+    justify-content: right;
+}
+
+#middle {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+#search {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+	height: 300px;
+	width: 300px;
+	margin-left: 70px;
+	margin-right: 70px;
+	border-radius: 20px;
+	background-color: white;
+}
+#departure{
+    background-color: rgb(230, 226, 226);
+    width: 80%;
+    height: 10%;
+    border-style: hidden;
+}
+#arrival {
+    background-color: rgb(230,226,226);
+    width: 80%;
+    height: 10%;
+    border-style: hidden;
+}
+#date{
+    background-color: rgb(230,226,226);
+    width: 80%;
+    height: 10%;
+    border-style: hidden;
+}
+
+#btn-search{
+    background-color:rgb(80, 141, 80);
+    border-color: rgb(80, 141, 80);
+    width: 80%;
+    height: 10%;
+}
+ #resultat {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 20px;
+    background-color: white;
+ }
+
+.texte {
+    flex-direction: row;
+    display: flex;
+    color: white;
+    font-size: 25px;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+p {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+h3 {
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
