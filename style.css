@@ -53,6 +53,10 @@ h2 {
     margin-right: 5%;
 }
 
+#container {
+    background-image: url('image/background.jpg');
+}
+
 #middle {
     height: 20vh;
     display: flex;
