@@ -1,6 +1,8 @@
 document.querySelector("#btn-search").addEventListener("click", function(){
-    const trip = document.querySelector('#recherche').value;
-
+    const trip = {
+        departure : document.querySelector('#departure').value,
+        arrival : document.querySelector('#arrival').value,
+    }
 	fetch('http://localhost:3000/trips', {
 		method: 'POST',
 		headers: { 'Content-Type': 'application/json' },
@@ -9,8 +11,10 @@ document.querySelector("#btn-search").addEventListener("click", function(){
     .then(response => response.json())
     .then(data => {
         if(data.result){
-            document.querySelector("#resultat").innerHTML += trip
+            window.location.assign ("#resultat")
+        }else {
+            return ("./image/notfound.png")
         }
-        })
     })
+})
 
