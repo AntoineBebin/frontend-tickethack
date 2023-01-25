@@ -11,13 +11,29 @@ h2 {
     align-items: stretch;
     justify-content: left;
 }
-.word {
+#cart {
     color: black;
     display: flex;
     font-size: 15x;
     align-items: right;
     justify-content: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 2%;
 }
+#book {
+    color: black;
+    display: flex;
+    font-size: 15x;
+    align-items: right;
+    justify-content: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 5%;
+}
+
 
 #container {
     background-color: rgb(226, 226, 226);

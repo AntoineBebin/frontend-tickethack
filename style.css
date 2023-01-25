@@ -31,12 +31,27 @@ h2 {
     align-items: stretch;
     justify-content: left;
 }
-.word {
+#cart {
     color: black;
     display: flex;
     font-size: 15x;
     align-items: right;
     justify-content: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 2%;
+}
+#book {
+    color: black;
+    display: flex;
+    font-size: 15x;
+    align-items: right;
+    justify-content: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 5%;
 }
 
 #middle {
@@ -81,6 +96,7 @@ h2 {
     height: 10%;
     border-style: hidden;
     display: flex;
+    margin-bottom: 30%;
 }
 #date{
     background-color: rgb(230,226,226);
@@ -96,6 +112,8 @@ h2 {
     width: 80%;
     height: 10%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
  #resultat {
     display: flex;
@@ -132,3 +150,4 @@ h3 {
     justify-content: center;
     align-items: center;
 }
+
